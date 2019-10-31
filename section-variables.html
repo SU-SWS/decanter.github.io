@@ -793,13 +793,13 @@
                               <li class="kss-nav__menu-item">
                   <a class="kss-nav__menu-link" href="section-variables.html#kssref-variables-core-colors-map">
                     <span class="kss-nav__ref kss-nav__ref-child">5.2.3</span>
-                    <span class="kss-nav__name"><del>$core-colors</del></span>
+                    <span class="kss-nav__name">$su-core-colors</span>
                   </a>
                 </li>
                               <li class="kss-nav__menu-item">
                   <a class="kss-nav__menu-link" href="section-variables.html#kssref-variables-core-colors-map">
                     <span class="kss-nav__ref kss-nav__ref-child">5.2.3</span>
-                    <span class="kss-nav__name">$su-core-colors</span>
+                    <span class="kss-nav__name"><del>$core-colors</del></span>
                   </a>
                 </li>
                               <li class="kss-nav__menu-item">
@@ -8187,34 +8187,6 @@ Use <code>$su-color-white</code> instead.</p>
                   Variables.Core.colors-map
                 </span>
               </span>
-              <del>$core-colors</del>
-            </a>
-          </h3>
-
-          
-                      <div class="kss-description">
-              <p><strong>Deprecated. Will be removed in 6.0.0.</strong><br/>
-Use <code>$su-core-colors</code> instead.</p>
-
-            </div>
-          
-                  </div>
-
-        
-              <div class="kss-source kss-style">
-          Source: <code>utilities/variables/core/_core-color-maps.scss</code>, line 48
-        </div>
-          </section>
-              <section id="kssref-variables-core-colors-map" class="kss-section kss-section--depth-3 ">
-        <div class="kss-style">
-                    <h3 class="kss-title kss-title--level-3">
-            <a class="kss-title__permalink" href="#kssref-variables-core-colors-map">
-              <span class="kss-title__ref">
-                5.2.3
-                <span class="kss-title__permalink-hash">
-                  Variables.Core.colors-map
-                </span>
-              </span>
               $su-core-colors
             </a>
           </h3>
@@ -8328,6 +8300,34 @@ Color maps for individual components are in their own respective directories wit
                   
               <div class="kss-source kss-style">
           Source: <code>utilities/variables/core/_core-color-maps.scss</code>, line 3
+        </div>
+          </section>
+              <section id="kssref-variables-core-colors-map" class="kss-section kss-section--depth-3 ">
+        <div class="kss-style">
+                    <h3 class="kss-title kss-title--level-3">
+            <a class="kss-title__permalink" href="#kssref-variables-core-colors-map">
+              <span class="kss-title__ref">
+                5.2.3
+                <span class="kss-title__permalink-hash">
+                  Variables.Core.colors-map
+                </span>
+              </span>
+              <del>$core-colors</del>
+            </a>
+          </h3>
+
+          
+                      <div class="kss-description">
+              <p><strong>Deprecated. Will be removed in 6.0.0.</strong><br/>
+Use <code>$su-core-colors</code> instead.</p>
+
+            </div>
+          
+                  </div>
+
+        
+              <div class="kss-source kss-style">
+          Source: <code>utilities/variables/core/_core-color-maps.scss</code>, line 48
         </div>
           </section>
               <section id="kssref-variables-core-grid" class="kss-section kss-section--depth-3 ">
@@ -13150,7 +13150,7 @@ Use <code>$su-root-font-size</code> instead.</p>
             </p>
           
                       <div class="kss-description">
-              <p>Font size.</p>
+              <p>HTML root font size (10px assuming browser default is 16px)</p>
 
             </div>
           
@@ -13162,7 +13162,7 @@ Use <code>$su-root-font-size</code> instead.</p>
 
             
             <div class="kss-modifier__example">
-              $su-root-font-size: 10px;
+              $su-root-font-size: 62.5%;
               <div class="kss-modifier__example-footer"></div>
             </div>
 
@@ -13171,7 +13171,7 @@ Use <code>$su-root-font-size</code> instead.</p>
               <summary>
                                   Markup
                               </summary>
-              <pre class="prettyprint linenums lang-html"><code data-language="html">$su-root-font-size: 10px;</code></pre>
+              <pre class="prettyprint linenums lang-html"><code data-language="html">$su-root-font-size: 62.5%;</code></pre>
             </details>
                   
               <div class="kss-source kss-style">

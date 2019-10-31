@@ -301,7 +301,7 @@
                               <li class="kss-nav__menu-item">
                   <a class="kss-nav__menu-link" href="section-mixins.html#kssref-mixins-grid-centered-column">
                     <span class="kss-nav__ref kss-nav__ref-child">6.8.1</span>
-                    <span class="kss-nav__name">@centered-column($grid: $su-grid-media, $margin: $su-screen-margins)</span>
+                    <span class="kss-nav__name">@centered-column($grid: $su-grid-media, $screens: $su-grid-screens, $margin: $su-screen-margins)</span>
                   </a>
                 </li>
                               <li class="kss-nav__menu-item">
@@ -1706,7 +1706,7 @@ breakpoint based on the number of columns passed in.</p>
                   Mixins.Grid.centered-column
                 </span>
               </span>
-              @centered-column($grid: $su-grid-media, $margin: $su-screen-margins)
+              @centered-column($grid: $su-grid-media, $screens: $su-grid-screens, $margin: $su-screen-margins)
             </a>
           </h3>
 
@@ -1716,7 +1716,28 @@ breakpoint based on the number of columns passed in.</p>
 
             </div>
           
-                  </div>
+                                    <div class="kss-parameters__title">Parameters:</div>
+              <ul class="kss-parameters">
+                          <li class="kss-parameters__item">
+                <div class="kss-parameters__name"><code>$grid</code></div>
+                <div class="kss-parameters__description">
+                  A sass map where the key is the shortcode of the breakpoint and the value is the full media query.
+                                  </div>
+              </li>
+                                                <li class="kss-parameters__item">
+                <div class="kss-parameters__name"><code>$screens</code></div>
+                <div class="kss-parameters__description">
+                  A sass map of screen size breakpoint width values
+                                  </div>
+              </li>
+                                                <li class="kss-parameters__item">
+                <div class="kss-parameters__name"><code>$margin</code></div>
+                <div class="kss-parameters__description">
+                  A sass map of screen size breakpoint screen edge margin sizes
+                                  </div>
+              </li>
+                          </ul>
+                              </div>
 
         
               <div class="kss-source kss-style">

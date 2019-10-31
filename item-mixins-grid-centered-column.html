@@ -166,7 +166,7 @@
                   Mixins.Grid.centered-column
                 </span>
               </span>
-              @centered-column($grid: $su-grid-media, $margin: $su-screen-margins)
+              @centered-column($grid: $su-grid-media, $screens: $su-grid-screens, $margin: $su-screen-margins)
             </a>
           </h3>
 
@@ -176,7 +176,28 @@
 
             </div>
           
-                  </div>
+                                    <div class="kss-parameters__title">Parameters:</div>
+              <ul class="kss-parameters">
+                          <li class="kss-parameters__item">
+                <div class="kss-parameters__name"><code>$grid</code></div>
+                <div class="kss-parameters__description">
+                  A sass map where the key is the shortcode of the breakpoint and the value is the full media query.
+                                  </div>
+              </li>
+                                                <li class="kss-parameters__item">
+                <div class="kss-parameters__name"><code>$screens</code></div>
+                <div class="kss-parameters__description">
+                  A sass map of screen size breakpoint width values
+                                  </div>
+              </li>
+                                                <li class="kss-parameters__item">
+                <div class="kss-parameters__name"><code>$margin</code></div>
+                <div class="kss-parameters__description">
+                  A sass map of screen size breakpoint screen edge margin sizes
+                                  </div>
+              </li>
+                          </ul>
+                              </div>
 
         
               <div class="kss-source kss-style">
